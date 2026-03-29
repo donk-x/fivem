@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /c/Users/wreck/Documents/GitHub/fivem/*.cmd /c/Users/wreck/Documents/GitHub/fivem/*.ps1)",
+      "Bash(grep -E \"\\\\.\\(lua|txt|bat|ps1|sh\\)$\")",
+      "Bash(grep -r \"FXServer\\\\|server.*build\\\\|server.*artifact\" /c/Users/wreck/Documents/GitHub/fivem/docs/ --include=*.md)",
+      "Bash(xargs grep:*)",
+      "Bash(pwsh -Version)",
+      "Bash(py --version)",
+      "Bash(yarn --version)",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/Installer/vswhere.exe\" -latest -property installationVersion)",
+      "Bash(git submodule:*)"
+    ]
+  }
+}
